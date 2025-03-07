@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Starting</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="text2">
+            <div class="Student" >Student Registration</div>
+        <div class="user"><input type="text" id="text" placeholder="Username"></div>
+        <br>
+      <div class="pass">  <input type="password" id="text1" placeholder="password"></div>
+        <br>
+       <div class="button"><button id="btn1" onclick="btn1()">Submit</button></div>
+    </div>
+        <script>
+            function btn1()
+            {
+               var s=document.getElementById("text").value;
+               if(s===""){
+               alert("Select user please")
+            return ;}
+               alert("user is "+ s);
+            }
+        </script>
+    </body>
+
+</html>
